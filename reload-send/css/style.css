@@ -1,0 +1,403 @@
+@font-face {
+    font-family:Myfont;
+    src:url("../fonts/Roboto-medium.ttf")
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Myfont;
+    background-attachment: scroll;
+}
+
+
+.section1 {
+  min-height: 28.6vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-top {
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.nav a {
+  color: #333;
+  font-weight: 500;
+  margin-left: 7px;
+}
+
+/* Bootstrap 4 text input with search icon */
+/*search input*/
+.has-search .form-control {
+    padding-left: 2.375rem;
+    margin-left: 0;
+}
+/*search icon*/
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.logo-top{
+  margin-left:7vw;
+}
+
+.nav-top {
+  margin-left: 0px;
+}
+
+/*search input container*/
+.has-search {
+  width: 80vw;
+  margin-left:7vw;
+}
+
+.section2 {
+  min-height: 100vh;
+  background-color: rgb(250,250,250);
+  border-top: 1px solid #eee;
+}
+form {
+  width: 90vw;
+  margin:auto;
+  margin-top:10vh;
+}
+
+form h5 {
+  text-align: center;
+}
+
+.form-head-container {
+  min-width: 100vw;
+  height: 10vh;
+}
+
+.form-check {
+  border: 1px solid #ccc;
+  height: 2.375rem;
+  padding-left: 8vw;
+  padding-top: 1vh;
+  border-radius: 3px;
+  opacity: 0.5;
+}
+
+.account {
+  margin-top: 30px;
+  text-align: center;
+}
+
+
+.or-section {
+  width: 100vw;
+  margin: auto;
+  text-align: center;
+  font-size: 40px;
+}
+
+.footsec li {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+footer {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footsec {
+  width: 80vw;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 30px;
+}
+
+footer a {
+  color: #333;
+  font-size: 30px;
+}
+
+.footer-head {
+  font-size: 20px;
+}
+
+.footend {
+  border: 1px solid #eee;
+  width: 80vw;
+  padding: 20px 30px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    display:inline-block;
+    padding:15px 15px;
+    line-height:140%;
+}
+
+button {
+    display: inline-block;
+   /* padding:30px 30px;
+    font-size: 30px;*/
+}
+
+#savebutton {
+  width: 20vw;
+  background-color: #11a0dc;
+  border: 0px;
+}
+
+.logo {
+  color: #11A0DC;
+}
+
+.copyright {
+  background-color: #eee;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 20px;
+  padding-top: 10%;
+  height: 20vh;
+}
+
+.copy {
+  height: 10vh;
+  margin: auto;
+}
+
+.navbar-brand {
+  color: #11A0DC;
+}
+
+#nb {
+  color: #11A0DC;
+}
+
+@media only screen and (min-width: 960px) {
+.section1 {
+  min-width: 100vw;
+  min-height: 96px;
+  max-height: 96px;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-top {
+  font-size: 20px;
+  width: 10vw;
+  height: 26px;
+  padding: auto;
+  margin: auto 0px;
+  margin-left: 4vw;
+}
+
+.nav {
+  width: 20vw;
+  font-size: 10px;
+  height: auto;
+  padding: auto;
+}
+.nav a {
+  color: #333;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 1vw;
+  padding: 0px;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    height: 60px;
+    margin-top: 18px;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: inline-block;
+    width: 5vw;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    margin-top: 18px;
+}
+
+
+.nav-top {
+  margin: auto 0px;
+  margin-left: 0px;
+}
+.has-search {
+  width: 30vw;
+  height: 96px;
+  margin: auto 0px;
+  font-size: 10px;
+}
+
+.section2 {
+  min-height: auto;
+  background-color: rgb(250,250,250);
+  border-top: 1px solid #eee;
+  padding-bottom: 7vh;
+  
+}
+form {
+  width: 30vw;
+  margin:auto;
+  margin-top:6vh;
+}
+
+form h5 {
+  text-align: center;
+}
+
+.form-head-container {
+  min-width: 100vw;
+  height: 6vh;
+}
+
+.form-head {
+
+}
+
+form-check {
+  border: 1px solid #ccc;
+  height: 2.375rem;
+  padding: 0;
+  border-radius: 3px;
+  opacity: 0.5;
+}
+
+.check-input {
+  margin-left: -20px;
+}
+
+.check-label {
+  font-size: 8px;
+}
+
+#savebutton {
+  width: 10vw;
+  background-color: #11a0dc;
+  border: 0px;
+}
+
+
+.account {
+  margin-top: 30px;
+  text-align: center;
+}
+
+
+.or-section {
+  width: 100vw;
+  margin: auto;
+  text-align: left;
+  font-size: 40px;
+}
+
+.footsec li {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+footer {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #eee;
+  color: #555;
+  opacity: 0.8;
+  padding-left: 5vw;
+}
+
+.footsec {
+  width: 25vw;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  margin: auto;
+  margin-top: 5vh;
+}
+
+footer a {
+  color: #333;
+  font-size: 15px;
+}
+
+.footer-head {
+  font-size: 16px;
+  opacity: 0.6;
+}
+
+.footend {
+  border: 1px solid #eee;
+  width: 25vw;
+  padding: 20px 30px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    display:inline-block;
+    padding:15px 15px;
+    line-height:140%;
+    font-size: 14px;
+}
+
+button {
+    display: inline-block;
+   /* padding:30px 30px;
+    font-size: 30px;*/
+}
+
+.logo {
+  color: #11A0DC;
+}
+
+.copyright {
+  background-color: #eee;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 0;
+  padding-top: 0;
+  height: 5vh;
+  min-width: 100vw;
+}
+
+.copy {
+  height: 5vh;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  min-width: 100vw;
+}
+
+.copy1, .copy2 {
+  margin-left: 5vw;
+  width: 50%;
+}
+
+.copy2 {
+  margin-left: 30vw;
+  width: 50%;
+  text-align: right;
+}
+
+
+}
